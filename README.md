@@ -16,7 +16,7 @@ The language filtration module requires compiling **FastText**, which needs a C+
 Install all necessary data processing, probabilistic, and natural language packages:
 
 ```bash
-pip install pandas numpy wordfreq fasttext-wheel datasketch pybloom-live psutil
+pip install -r requirements.txt
 ```
 
 ### The language identification layer relies on Meta's pre-trained FastText subword compressed binary. Download it and place it in your root directory:
